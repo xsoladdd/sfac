@@ -4,10 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>John Doe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    Hello World
+    <!-- Nav Bar -->
+    <section class="nav-bar">
+      <div class="left">
+        <img src="./assets/svg/icon.svg" alt="icon" />
+        <p>John Doe</p>
+      </div>
+      <div class="right">
+        <div class="desktop-nav">
+          <ul>
+            <li class="nav-item active">Home</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Projects</li>
+            <li class="nav-item">Contact</li>
+            <li class="nav-item">
+              <div class="i-wrapper">
+                <img src="./assets/svg/I.svg" alt="I icon" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-nav">
+          <img src="./assets/svg/hamburger.svg" alt="menu icon" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero section -->
+    <main class="hero-section">
+      <div class="image-wrapper">
+        <img src="./assets/hero.png" alt="Hero image" />
+        <div class="nametag desktop-only">
+          <h3>J. Doe</h3>
+          <p>Front-End Developer TRADA</p>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <h1>
+          Be Creative,<br />
+          Be Innovative
+        </h1>
+        <h2>Full Stack Developer . The Baddass</h2>
+        <p>
+          I have to be able to communicate ideas to a wide range of stakeholders
+          in both my own voice and in Sprout's. Communicating on social.
+        </p>
+        <div class="button-wrapper">
+          <button class="btn-primary">Portfolio</button>
+
+          <span>
+            <a href="#">Curicculum Vitae</a>
+          </span>
+        </div>
+
+        <div class="icon-wrapper desktop-only">
+          <img
+            src="./assets/svg/socialmedia/entypo-social_twitter-with-circle.svg"
+            alt="twitter"
+          /><img
+            src="./assets/svg/socialmedia/bx_bxl-instagram-alt.svg"
+            alt="instagram"
+          /><img
+            src="./assets/svg/socialmedia/eva_behance-fill.svg"
+            alt="behance"
+            srcset=""
+          /><img
+            src="./assets/svg/socialmedia/entypo-social_dribbble-with-circle.svg"
+            alt="dribble"
+            srcset=""
+          />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
